@@ -14,6 +14,11 @@
  * limitations under the License.
  **/
 
+functionGlobalContext:
+{
+  zlib: require('zlib')
+}
+
 var path = require("path");
 var when = require("when");
 var util = require("util");
